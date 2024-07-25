@@ -12,7 +12,7 @@
 /storage/logs/*
 /vendor
 .env
-.env.examples
+.env.example
 .env.backup
 .env.production
 .phpactor.json
