@@ -9,6 +9,8 @@ class Review extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['review', 'rating'];
+
     //Inverse Side
     public function book(){
         return $this->belongsTo(Book::class);
